@@ -1,8 +1,8 @@
-#Button searcher
+# Button searcher
 
 Search similar button in transformed html document by origin button id
 
-## Installation
+## Before starting
 
 Please check your Node.js version. The required version is `8.0.0` or greater
 
@@ -11,11 +11,20 @@ $ node -v
 v8.12.0
 ```
 
+## Installation
+
 `git clone https://github.com/ivanoff/agileengine.git`
 
 `cd agileengine`
 
 `npm install`
+
+
+## Testing (optional)
+
+```
+npm test
+```
 
 ## Usage
 
