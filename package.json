@@ -1,0 +1,23 @@
+{
+  "name": "agileengine",
+  "version": "0.0.1",
+  "description": "Find success button",
+  "main": "find_button.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/mocha"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0",
+    "should": "^13.2.3"
+  },
+  "dependencies": {
+    "html2json": "^1.0.2"
+  }
+}
