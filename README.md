@@ -29,13 +29,21 @@ npm test
 ## Usage
 
 ```
-node ${path.basename(__filename)} origin_button_id html_origin html_transformed [html_transformed...]
+node find_button.js origin_button_id html_origin html_transformed [html_transformed...]
 ```
 
 ## Example
 
 ```
-node ${path.basename(__filename)} make-everything-ok-button test/static/sample-0-origin.html test/static/sample-1-evil-gemini.html
+node find_button.js make-everything-ok-button test/static/sample-0-origin.html test/static/sample-1-evil-gemini.html
+```
+
+Output result:
+
+```
+Try to find make-everything-ok-button id in origin test/static/sample-0-origin.html and similars in test/static/sample-1-evil-gemini.html 
+Result:
+test/static/sample-1-evil-gemini.html: root[0] > html[3] > body[1] > div[5] > div[9] > div[1] > div[1] > div[5] > div[1] > a
 ```
 
 ## License
